@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <link rel="stylesheet" href="style_timer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+</head>
+
+<body>
+
+    <div class="max-width">
+        <button onclick="start()" class="bg-green">Iniciar</button>
+        <button onclick="pause()" class="bg-yellow">Pausar</button>
+        <button onclick="stop()" class="bg-red">Parar</button>
+        <table>
+            <tr>
+                <td id="hora"></td><td id="min"></td><td id="seg"></td>
+            </tr>
+        </table>
+    </div>
+<script src="script_timer.js"></script>
+</body>
+
+</html>
